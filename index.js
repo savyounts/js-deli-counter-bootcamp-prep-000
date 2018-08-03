@@ -16,11 +16,17 @@ function nowServing(array){
 function currentLine(katzDeliLine){
   
   if (katzDeliLine.length > 0){
+<<<<<<< HEAD
     var array = []
     for(var i=0; i < katzDeliLine.length; i++){
        var num = i+ 1
       array.push(" " +num +'. '+ katzDeliLine[i])}
       return 'The line is currently:'+ array
+=======
+    for(var i=0; i < katzDeliLine.length; i++){
+      return 'The line is currently: '+ i'. '+ katzDeliLine[i];
+    }
+>>>>>>> 7659872b0759dffa035fa046a9569b93f05f6f6a
     
   }else return 'The line is currently empty.'
 }
